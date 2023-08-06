@@ -1,3 +1,4 @@
+import Tab from "./components/Tab";
 function App() {
   return (
     <div className="bg-zinc-900 min-h-screen flex flex-col">
@@ -16,6 +17,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Tab />
     </div>
   );
 }
