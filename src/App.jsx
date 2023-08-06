@@ -1,3 +1,4 @@
+import PreviewButton from "./components/PreviewButton";
 import Tab from "./components/Tab";
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
           <span className="text-base">the</span>SmartIDE
         </h1>
         <div className="w-full">
-          <button>Show preview</button>
+          <PreviewButton />
         </div>
         <div className="w-full flex">
           <div className="ml-auto mr-2">
