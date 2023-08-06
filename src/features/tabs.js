@@ -39,7 +39,7 @@ export const codeUpdater = createSlice({
   reducers: {
     updateCode: (state, actions) => {
       state.find((obj) => obj.id === actions.payload.id).code =
-        actions.payload.code;
+        actions.payload.value;
     },
   },
 });

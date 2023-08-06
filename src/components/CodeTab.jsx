@@ -2,7 +2,6 @@ import { useDispatch } from "react-redux";
 import { updateCode } from "../features/tabs";
 export default function CodeTab({ code, id }) {
   const dispatch = useDispatch();
-  console.log(updateCode);
   return (
     <textarea
       onChange={(e) => dispatch(updateCode({ id, value: e.target.value }))}

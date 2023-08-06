@@ -20,7 +20,7 @@ export default function Preview() {
   </hmtl
   `;
   return (
-    <div className="absolute top-0 left-0 w-full h-full bg-zinc-900">
+    <div className="absolute top-0 left-0 w-full h-full">
       <iframe
         className="block w-full h-full "
         srcDoc={srcDoc}
